@@ -1,0 +1,16 @@
+// Introduction
+In the highly competitive retail industry, customer retention and acquisition are crucial for sustained growth. This project focuses on analyzing key data from a retail company to devise effective retention strategies. By leveraging SQL queries, we will extract insights from various datasets to understand customer behavior, identify satisfaction drivers, and formulate actionable strategies.
+
+Data Overview
+The datasets available for analysis include:
+
+i. Transaction Document: Records of transactions including order dates, employee IDs, customer IDs, product IDs, quantities, payment methods, and discounts.
+ii. Return Table: Details of returned products, including reasons for returns and conditions of items.
+iii. Customer Document: Customer profiles with demographic information and contact details.
+iv. Product Document: Product details such as categories, prices, and stock levels.
+v. Store: Information on store locations, addresses, warehouse capacities, and major issues faced.
+vi. Employee: Employee details including their roles and hire dates.
+
+Create the tables & import the dataset
+
+Ai. Starting with Transaction Table as Transaction_Doc
