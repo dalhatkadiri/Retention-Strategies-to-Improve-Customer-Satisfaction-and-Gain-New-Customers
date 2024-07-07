@@ -13,4 +13,19 @@ vi. Employee: Employee details including their roles and hire dates.
 
 Create the tables & import the dataset
 
-Ai. Starting with Transaction Table as Transaction_Doc
+Starting with Transaction Table as Transaction_Doc//
+
+CREATE TABLE Transaction_Doc(
+    Serial_Number NUMERIC,
+    Transaction_ID VARCHAR(100) PRIMARY KEY,
+    Order_Date DATE,
+    Employee_ID VARCHAR (100),
+    Customer_ID VARCHAR(100),
+    Product_ID VARCHAR(100),
+    Quantity_Supplied NUMERIC,
+    Payment_Method VARCHAR(50),
+    Discount_Rate NUMERIC,
+    Tax_Details NUMERIC,
+    Refunds_and_Chargebacks VARCHAR(10)
+       )
+
