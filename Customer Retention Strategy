@@ -3,7 +3,6 @@ In the highly competitive retail industry, customer retention and acquisition ar
 
 Data Overview
 The datasets available for analysis include:
-
 i. Transaction Document: Records of transactions including order dates, employee IDs, customer IDs, product IDs, quantities, payment methods, and discounts.
 ii. Return Table: Details of returned products, including reasons for returns and conditions of items.
 iii. Customer Document: Customer profiles with demographic information and contact details.
@@ -28,4 +27,83 @@ CREATE TABLE Transaction_Doc(
     Tax_Details NUMERIC,
     Refunds_and_Chargebacks VARCHAR(10)
        )
+
+// Import the dataset into the table//
+
+COPY Transaction_Doc
+ FROM 'C:\Users\USER\Desktop\Project 1\Transaction_Doc.csv'DELIMITER','
+
+
+//Inspect the table//
+
+SELECT *
+ FROM Transaction_Doc
+
+//  //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
